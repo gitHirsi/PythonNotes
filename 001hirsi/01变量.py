@@ -7,6 +7,6 @@
 my_name = "Hirsi"
 print(my_name)
 
-schoolName='湖北师范学院hirsiboom'
+schoolName='湖北师范学院'
 print('学校:'+schoolName)
 
