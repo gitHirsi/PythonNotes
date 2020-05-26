@@ -15,7 +15,7 @@ nameList = ['Hirsi', 'Tom', 'Bill', 'aa', 'bb', 'cc']
 # print('-------------------')
 
 """
-2.pop()  不指定下标，删除最后一个
+2.pop()  按下标删除,不指定下标，删除最后一个
         
 """
 # popName1 = nameList.pop()
