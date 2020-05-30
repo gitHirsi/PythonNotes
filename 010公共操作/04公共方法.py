@@ -2,7 +2,6 @@
 @Author:Hirsi
 @Time:2020/5/30 0030 8:57
 """
-from builtins import range
 
 str1 = 'hirsi'
 list1 = [10, 20, 30]
