@@ -7,7 +7,6 @@
 # def buy():
 #     return '❤'*5
 #
-#
 # goods = buy()
 # print(goods)
 
@@ -23,4 +22,3 @@ b = int(splitNum[1])
 
 result = sumNum(a, b)
 print(result)
-
