@@ -20,7 +20,7 @@ print(fn3(10, 20, 50))
 fn4 = lambda *args: args
 print(fn4(5, 6, 8, 10))
 
-# b不设定个数的参数(关键字参数) **kwargs   返回的为字典
+# 不设定个数的参数(关键字参数) **kwargs   返回的为字典
 fn5 = lambda **kwargs: kwargs
 print(fn5(name='Hirsi'))
 print(fn5(name='Hirsi', age=20, gander='男'))
