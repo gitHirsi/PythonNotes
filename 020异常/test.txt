@@ -1,0 +1,8 @@
+python  p1234567
+Fonts----------------------
+	Monoid Nerd Font
+	Iosevka medium
+	MonospaceTypewriter
+	PragmataPro
+---------------------------
+           -- 02异常的床底.py   引用
