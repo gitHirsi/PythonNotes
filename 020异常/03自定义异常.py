@@ -4,7 +4,7 @@
 """
 
 """
-1.自定义异常类,继承Exception
+1.自定义异常类,继承Exception   一定要有_str_
 2.抛出异常 
 3.捕获该异常 ——→  raise 异常类名    获取
     作用:可以帮助报错，报错的类型是不满足程序逻辑的错误
@@ -23,12 +23,12 @@ class ShortInputError(Exception):
 
 
 def main():
-    # 2  抛出异常
     try:
         pwd = input('请输入密码：')
         if len(pwd) < 4:
-            # 3
+            # 2  抛出异常
             raise ShortInputError(len(pwd), 4)
+    # 捕获异常
     except Exception as result:
         print(result)
     else:
