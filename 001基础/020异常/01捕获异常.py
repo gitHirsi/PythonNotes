@@ -44,10 +44,10 @@
 
 # finally  :无论是否异常都要执行的代码
 try:
-    f=open('test.txt','r')
+    f=open('test.txt', 'r')
     print('r')
 except Exception as result:
-    f=open('test.txt','w')
+    f=open('test.txt', 'w')
     print('w')
 else:
     print('这是else里面，表示没有错误!')
