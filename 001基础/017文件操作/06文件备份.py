@@ -14,6 +14,7 @@
 oldName = input('请输入你要备份的文件名：')
 
 # 2
+# 获取后缀名
 index = oldName.rfind('.')
 if index>0:
     postfix=oldName[index:]
